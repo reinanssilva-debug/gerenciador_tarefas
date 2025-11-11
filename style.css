@@ -3,19 +3,24 @@
 body {
     font-family: "Inter", sans-serif;
     padding: 20px;
-    background-color: #f2f2f2;
-
-
+    background-color: #272727;
 }
-
+h1 {
+    color: #ececec;                   /* cor do texto */
+    -webkit-text-stroke: 2px #000000; /* contorno nas letras */
+    font-size: 48px;                  /* tamanho do título */
+    text-align: center;               /* centraliza */
+    font-family: "Inter", sans-serif; /* mantém a fonte */
+}
 form{
 
     margin-bottom: 20px;
 }
 
 input{
-    margin-right: 10px;
+    list-style-type: none;
     padding: 5px;
+    
 }
 
 ul{
