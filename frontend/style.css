@@ -56,8 +56,9 @@ input{
 }
 #task-form input:focus{
 outline: none;
-border-color: #e3f300;
-box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+border-color: #ffd900;
+border-width: 3px;
+box-shadow: 0 10px 20px rgb(255, 230, 0);
 
 }
 
